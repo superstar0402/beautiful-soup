@@ -4,6 +4,7 @@ import pandas as pd
 
 books = []
 index = 0
+index123 = 123
 for i in range(1, 6):
     url = f"https://books.toscrape.com/catalogue/page-{i}.html"
     response = requests.get(url)
